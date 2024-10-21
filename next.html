@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/usm/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+<body>
+
+    <div class="container pt-5">
+        <h1>DIJKSTRA SIMULAT<i class="ri-search-eye-line"></i>R</h1>
+
+        <!-- Watch your results being generated -->
+        <div class="form-title">Watch your results being generated.</div>
+        <form>
+            <div class="form-row">
+                <div class=" col-sm-4">
+                    <label for="numNodes">Number Of Nodes</label>
+                    <input type="number" class="form-control" id="numNodes" placeholder="0">
+                </div>
+                <div class=" col-sm-4">
+                    <label for="startNode">Start Node</label>
+                    <input type="text" class="form-control" id="startNode" placeholder="A">
+                </div>
+                <div class=" col-sm-4">
+                    <label for="endNode">End Node (Optional)</label>
+                    <input type="text" class="form-control" id="endNode" placeholder="B">
+                    <small>If you want to find the shortest path between 2 nodes.</small>
+                </div>
+            </div>
+
+            <!-- Then, enter edges of your graph -->
+            <div class="form-title">Then, enter edges of your graph, add more if needed.</div>
+            <div class="form">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="numNodes">From</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <label for="startNode">To</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <label for="endNode">Weight</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class=" col-sm-3">
+                        <input type="number" class="form-control" id="numNodes" placeholder="0">
+                    </div>
+                    <div class=" col-sm-3">
+                        <input type="text" class="form-control" id="startNode" placeholder="A">
+                    </div>
+                    <div class=" col-sm-3">
+                        <input type="text" class="form-control" id="endNode" placeholder="B">
+                    </div>
+                    <div class=" col-sm-3">
+                        <button type="button" class="btn"><i class="ri-delete-bin-line"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="form">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="numNodes">From</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <label for="startNode">To</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <label for="endNode">Weight</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class=" col-sm-3">
+                        <input type="number" class="form-control" id="numNodes" placeholder="0">
+                    </div>
+                    <div class=" col-sm-3">
+                        <input type="text" class="form-control" id="startNode" placeholder="A">
+                    </div>
+                    <div class=" col-sm-3">
+                        <input type="text" class="form-control" id="endNode" placeholder="B">
+                    </div>
+                    <div class=" col-sm-3">
+                        <button type="button" class="btn"><i class="ri-delete-bin-line"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="form">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="numNodes">From</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <label for="startNode">To</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <label for="endNode">Weight</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-sm-3">
+                        <input type="number" class="form-control " id="numNodes" placeholder="0">
+                    </div>
+                    <div class=" col-sm-3">
+                        <input type="text" class="form-control" id="startNode" placeholder="A">
+                    </div>
+                    <div class=" col-sm-3">
+                        <input type="text" class="form-control" id="endNode" placeholder="B">
+                    </div>
+                    <div class=" col-sm-3">
+                        <button type="button" class="btn"><i class="ri-delete-bin-line"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more edges -->
+             <br>
+            <div class=" add-more">
+                <button type="button" class="btn btn-secondary btn-wide">+</button>
+            </div>
+
+            <div class="form-title">Finally, watch your results being generated.</div>
+        
+            <!-- Buttons -->
+            <div class="form-row">
+                <div class="col-sm-2">
+                    <button type="submit" class="btn btn-dark ">Generate</button>
+                </div>
+                <div class="col-sm-8">
+                    <button type="reset" class="btn btn-outline-dark ">Reset Form</button>
+                </div>
+                <div class="col-sm-2">
+                    <button type="button" class="btn btn-custom-back"><a href="./index.html">Back</a></button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
